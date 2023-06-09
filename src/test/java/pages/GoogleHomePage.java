@@ -10,6 +10,5 @@ public class GoogleHomePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-   // @FindBy
 
 }
