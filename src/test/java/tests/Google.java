@@ -8,7 +8,7 @@ import utilities.ApplicationFlow;
 import utilities.Config;
 import utilities.Driver;
 
-public class TestClass {
+public class Google {
 
     Faker faker=new Faker();
 
@@ -27,6 +27,11 @@ public void test1(){
             String title= Driver.getDriver().getTitle();
             Assert.assertTrue(title.contains(testData));
         }
+    }
+
+    @Test
+    public void test2(){
+        System.out.println("New line");
     }
 
     public void tear(){
