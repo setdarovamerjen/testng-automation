@@ -42,6 +42,9 @@ public class Driver {
            driver=null;
        }
     }
+    public static void welcome(){
+        System.out.println("Welcome to project");
+    }
 
 }
 
