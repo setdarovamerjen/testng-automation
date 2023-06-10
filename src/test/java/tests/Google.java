@@ -32,6 +32,7 @@ public void test1(){
     @Test
     public void test2(){
         System.out.println("New line");
+        System.out.println("2nd lin");
     }
 
     public void tear(){
