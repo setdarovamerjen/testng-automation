@@ -46,6 +46,10 @@ public class Driver {
         System.out.println("Welcome to project");
     }
 
+    public static void byNurlan(){
+        System.out.println("Nurlans message");
+    }
+
 }
 
 
