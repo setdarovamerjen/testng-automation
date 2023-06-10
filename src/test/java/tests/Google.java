@@ -24,7 +24,8 @@ public void test1(){
             String testData=faker.lorem().word();
             Driver.getDriver().findElement(By.name("q")).sendKeys(testData+ Keys.ENTER);
             ApplicationFlow.pause(500);
-
+            String title= Driver.getDriver().getTitle();
+            Assert.assertTrue(title.contains(testData));
         }
     }
 
