@@ -34,6 +34,10 @@ public void test1(){
         System.out.println("New line");
         System.out.println("2nd line");
     }
+    @Test
+    public void test3(){
+        System.out.println("Mkjahsljdas");
+    }
 
     public void tear(){
         Driver.quit();
