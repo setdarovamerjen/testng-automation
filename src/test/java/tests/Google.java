@@ -1,9 +1,12 @@
 package tests;
 
 import com.github.javafaker.Faker;
-import org.junit.*;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import utilities.ApplicationFlow;
 import utilities.Config;
 import utilities.Driver;
@@ -12,7 +15,7 @@ public class Google {
 
     Faker faker=new Faker();
 
-    @Before
+    @BeforeMethod
     public void setup(){
 
     }
@@ -33,10 +36,6 @@ public void test1(){
     public void test2(){
         System.out.println("New line");
         System.out.println("2nd line");
-    }
-    @Test
-    public void test3(){
-        System.out.println("Mkjahsljdas");
     }
 
     public void tear(){
