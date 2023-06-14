@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utilities.ApplicationFlow;
 import utilities.Config;
@@ -26,16 +27,11 @@ public void test1(){
             Assert.assertTrue(title.contains(testData));
         }
     }
-    @Test
-    public void test2(){
-        System.out.println("New line");
-        System.out.println("2nd line");
-    }
-    @Test
-    public void test3(){
-        System.out.println("Mkjahsljdas");
-    }
+
     public void tear(){
         Driver.quit();
     }
+
+
+
 }
