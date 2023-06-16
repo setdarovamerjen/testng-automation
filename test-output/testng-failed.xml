@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [main automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Reggresion(failed)">
+    <classes>
+      <class name="cashwise.CashWiseLoginFunctionality">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- cashwise.CashWiseLoginFunctionality -->
+    </classes>
+  </test> <!-- Reggresion(failed) -->
+</suite> <!-- Failed suite [main automation] -->

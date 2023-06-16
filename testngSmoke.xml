@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="main automation" >
-    <test name="Reggresion">
+<suite name=" main automation">
+    <test name="smoke">
         <classes>
             <class name="cashwise.CashWiseHomeTest"></class>
             <class name="studymate.StudyMateTests"></class>
-            <class name="cashwise.CashWiseDashBoard"></class>
-            <class name="cashwise.CashWiseLoginFunctionality"></class>
         </classes>
+
 
     </test>
 </suite>

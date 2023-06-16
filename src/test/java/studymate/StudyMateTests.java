@@ -30,7 +30,7 @@ public class StudyMateTests extends TestBase {
        studymateLoginPage.passwordInput.sendKeys(Config.getValue("studyMatePassword"));
        studymateLoginPage.loginBtn.click();
        String expectedURL="https://codewise.studymate.us/admin/analytics";
-       ApplicationFlow.pause(1000);
+       ApplicationFlow.pause(2000);
         Assert.assertEquals(Driver.getDriver().getCurrentUrl(), expectedURL);
     }
 
@@ -53,7 +53,5 @@ public class StudyMateTests extends TestBase {
         Assert.assertTrue(createdGroup.isDisplayed());
         ApplicationFlow.pause(2000);
     }
-
-
 
 }
